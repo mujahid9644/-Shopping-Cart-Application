@@ -11,7 +11,8 @@
 
 A fully functional e-commerce frontend built with **React 18**, **Vite**, and the **Context API**. This project demonstrates clean architecture, efficient global state management, custom hooks, and a mobile-first UI design.
 
-[View Live Demo][(https://your-netlify-link-here.netlify.app](https://mujahid9644.github.io/-Shopping-Cart-Application/)) · [Report Bug](https://github.com/mujahid9644/Shopping-Cart-Application/issues) · [Request Feature](https://github.com/mujahid9644/Shopping-Cart-Application/issues)
+[View Live Demo][(https://shopping-cart-application-sand.vercel.app/)![Uploading image.png…]()
+) · [Report Bug](https://github.com/mujahid9644/Shopping-Cart-Application/issues) · [Request Feature](https://github.com/mujahid9644/Shopping-Cart-Application/issues)
 
 </div>
 
