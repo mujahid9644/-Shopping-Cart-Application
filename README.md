@@ -11,7 +11,7 @@
 
 A fully functional e-commerce frontend built with **React 18**, **Vite**, and the **Context API**. This project demonstrates clean architecture, efficient global state management, custom hooks, and a mobile-first UI design.
 
-[View Live Demo](https://your-netlify-link-here.netlify.app) · [Report Bug](https://github.com/your-username/shopcart/issues) · [Request Feature](https://github.com/your-username/shopcart/issues)
+[View Live Demo][(https://your-netlify-link-here.netlify.app](https://mujahid9644.github.io/-Shopping-Cart-Application/)) · [Report Bug](https://github.com/mujahid9644/Shopping-Cart-Application/issues) · [Request Feature](https://github.com/mujahid9644/Shopping-Cart-Application/issues)
 
 </div>
 
@@ -69,23 +69,28 @@ ShopCart is a responsive shopping cart application designed to provide a seamles
 ## 📂 Project Structure
 
 ```text
-src/
-├── components/          # Reusable UI components
-│   ├── Navbar.jsx       # Top navigation & search bar
-│   ├── CategoryFilter.jsx
-│   ├── ProductGrid.jsx
-│   ├── ProductCard.jsx
-│   ├── Cart.jsx         # Cart drawer container
-│   ├── CartItem.jsx
-│   └── QuantityControl.jsx
-├── context/             # Global state management
-│   └── CartContext.jsx  # useReducer + Context API
-├── data/                # Mock data
-│   └── products.js
-├── hooks/               # Custom React hooks
-│   ├── useCart.js
-│   ├── useDebounce.js
-│   └── useLocalStorage.js
-├── App.jsx              # Main application component
-├── main.jsx             # React entry point
-└── index.css            # Global styles & design tokens
+react-shopping-cart/
+├── public/
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── Cart.jsx
+│   │   ├── CartItem.jsx
+│   │   ├── CategoryFilter.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductGrid.jsx
+│   │   └── QuantityControl.jsx
+│   ├── context/             # Global state management
+│   │   └── CartContext.jsx
+│   ├── data/                # Mock data
+│   │   └── products.js
+│   ├── hooks/               # Custom React hooks
+│   │   ├── useCart.js
+│   │   ├── useDebounce.js
+│   │   └── useLocalStorage.js
+│   ├── App.jsx              # Main application component
+│   ├── main.jsx             # React entry point
+│   └── styles.css           # Global styles & design tokens
+├── index.html
+├── package.json
+└── vite.config.js
